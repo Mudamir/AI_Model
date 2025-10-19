@@ -1,0 +1,26 @@
+# Core ML + Embeddings
+torch
+torchvision
+torchaudio
+sentence-transformers
+faiss-cpu
+numpy
+
+# Web framework
+fastapi
+uvicorn[standard]
+python-dotenv
+
+# Local LLM
+ollama
+
+# Cloud AI APIs
+google-generativeai  # Gemini
+anthropic           # Claude
+openai              # ChatGPT
+requests            # Perplexity & Grok
+
+# Optional utilities
+protobuf>=3.19.5,<4.0.0
+tf-keras
+psutil
